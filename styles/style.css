@@ -26,7 +26,7 @@
   font-weight: 600;
   font-size: 20px;
 }
-.navbar, .nav-logo-title, .Un-order, .banner, .Our-stories-container, .footer, .kids{
+.navbar, .cat-title, .Un-order, .banner, .Our-stories-container, .footer, .kids{
   display: flex;
 }
 
@@ -280,7 +280,7 @@ footer{
   width: 400px;
   height: 100px;
 }
-.about-school{
+.footer-info{
   font-weight: 400;
   font-size: 20px;
 }
@@ -308,6 +308,9 @@ footer{
     margin-top: 0;
   }
   .brand,.nav-list,.btn-primary,.kids-classroom{
+    display: none;
+  }
+  .marquee{
     display: none;
   }
   .menu{
@@ -371,7 +374,7 @@ footer{
     display: grid;
     margin-top: 30px;
     margin-bottom: 40px;
-    margin-left: 170px;
+    margin-left: 160px;
   }
   .footer{
     flex-direction: column;
